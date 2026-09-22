@@ -65,6 +65,7 @@ jreleaser {
     release {
         github {
             discussionCategoryName = 'Announcements'
+            immutableRelease = true
 
             changelog {
                 formatted = 'ALWAYS'
